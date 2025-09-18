@@ -1,8 +1,7 @@
 # TP1DPBO2025C1
 
 # Janji
-Saya Muhammad Rangga Nur Praditha dengan Nim 2400297 mengerjakan tes mesin 4 dalam mata kuliah algoritma dan struktur data untuk keberkahan-Nya maka saya tidak akan melakukan kecurangan seperti yang telah 
-di spesifikasikan
+Saya Muhammad Rangga Nur Praditha dengan Nim 2400297 mengerjakan Tugas Praktikum 1 dalam mata kuliah Desain Pemrograman Berorientasi Objek untuk keberkahan-Nya maka saya tidak akan melakukan kecurangan seperti yang telah di spesifikasikan
 
 # Desain Program
 Program dibuat dengan 1 class yaitu Handphone yang terdapat 5 atribut:
