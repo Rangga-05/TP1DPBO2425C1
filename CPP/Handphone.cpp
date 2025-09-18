@@ -2,16 +2,18 @@
 #include <string>
 using namespace std;
 
+//kelas Handphone untuk simpan data handphone
 class Handphone{
 
     private:
-    int id;
-    string merek;
-    string jenis;
-    string harga;
-    string spesifikasi;
+    int id;             //id unik setiap handphone
+    string merek;       //merek handphone
+    string jenis;       //jenis atau tipe handphone
+    string harga;       //harga handphone
+    string spesifikasi; //spesifikasi handphone
 
     public:
+    //konstruktor kosong
     Handphone(){
         this->id = 0;
         this->merek = "";
@@ -20,6 +22,7 @@ class Handphone{
         this->spesifikasi = "";
     }
 
+    //konstruktor dengan parameter untuk inisialisasi
     Handphone(int id, string merek, string jenis, string harga, string spesifikasi){
         this->id = id;
         this->merek = merek;
@@ -28,42 +31,42 @@ class Handphone{
         this->spesifikasi = spesifikasi;
     }
 
-    //Set Get
-    void setID(int id){
-        this->id = id;
-    }
+    //getter Setter untuk tiap atribut
     int getId(){
         return id;
     }
-
-    void setMerek(string merek){
-        this->merek = merek;
+    void setID(int id){
+        this->id = id;
     }
+
     string getMerek(){
         return merek;
     }
-
-    void setJenis(string jenis){
-        this->jenis = jenis;
+    void setMerek(string merek){
+        this->merek = merek;
     }
+
     string getJenis(){
         return jenis;
     }
-
-    void setHarga(string harga){
-        this->harga = harga;
+    void setJenis(string jenis){
+        this->jenis = jenis;
     }
+
     string getHarga(){
         return harga;
     }
-
-    void setSpesifikasi(string spesifikasi){
-        this->spesifikasi = spesifikasi;
+    void setHarga(string harga){
+        this->harga = harga;
     }
+
     string getSpesifikasi(){
         return spesifikasi;
     }
+    void setSpesifikasi(string spesifikasi){
+        this->spesifikasi = spesifikasi;
+    }
 
-    //Destruktor
+    //destruktor
     ~Handphone(){}
 };
